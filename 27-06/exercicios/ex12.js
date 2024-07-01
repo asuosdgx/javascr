@@ -11,4 +11,4 @@ function busca_f(arr, x, y ){
 }
 }
 
-console.log(busca_f(arr2, "god", "nao tem "))
+console.log(busca_f(arr, "batata", "nao tem "))
