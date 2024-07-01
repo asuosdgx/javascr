@@ -6,7 +6,10 @@ const maior = (x,y) => {
     else if(y>x){
         console.log(`O número ${y} é maior`);
     }
+    else if(x ===y || y ===x){
+        console.log("Os números são iguais!")
+    }
 
 }
 
-maior(1000,154856556)
+maior(100,10)
